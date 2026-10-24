@@ -12,18 +12,18 @@
     "test": "node --import tsx --test test/app.test.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "verify":"npm run typecheck && npm test && npm run build"
+    "verify": "npm run typecheck && npm test && npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "@types/express": "^5.0.6",
-    "@types/node": "^24.13.6",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
